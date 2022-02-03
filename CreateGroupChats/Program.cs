@@ -56,7 +56,7 @@ namespace CreateGroupChats
                         },
                         AdditionalData = new Dictionary<string, object>()
                         {
-                            {"user@odata.bind", "https://graph.microsoft.com/v1.0/users('7cb9448e-debf-4595-b09b-502f58a36379')"}
+                            {"user@odata.bind", "https://graph.microsoft.com/v1.0/users('<<user1>>')"}
                         }
                     },
                     new AadUserConversationMember
@@ -67,7 +67,7 @@ namespace CreateGroupChats
                         },
                         AdditionalData = new Dictionary<string, object>()
                         {
-                            {"user@odata.bind", "https://graph.microsoft.com/v1.0/users('058f8fd4-c908-4524-bb38-f2d8627d5df3')"}
+                            {"user@odata.bind", "https://graph.microsoft.com/v1.0/users('<<user2>>')"}
                         }
                     },
                     new AadUserConversationMember
@@ -78,7 +78,7 @@ namespace CreateGroupChats
                         },
                         AdditionalData = new Dictionary<string, object>()
                         {
-                            {"user@odata.bind", "https://graph.microsoft.com/v1.0/users('eda3b4a5-7672-4588-9ea2-a8d34ae42013')"} //me
+                            {"user@odata.bind", "https://graph.microsoft.com/v1.0/users('<<user3>>')"} //me
 						}
                     }
                 }
