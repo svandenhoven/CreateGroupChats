@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CreateGroupChats": {
+      "commandName": "Project",
+      "commandLineArgs": "invoice1 invoice2"
+    }
+  }
+}
